@@ -1,0 +1,108 @@
+
+.todo-root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  
+  }
+  
+
+  .input-todo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+
+  #inputBoxToDo {
+    width: 300px;
+    padding: 8px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  #addItemButton {
+    background-color: lightblue;
+    color: white;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #000;
+    margin: 10px;
+    padding: 5px 20px;
+  }
+  
+
+  
+  .todo-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .update-todo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    background-color: white;
+  }
+  
+  .update-todo:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+
+  .list {
+    flex-grow: 1;
+    margin: 0 10px;
+  }
+
+  .edit-icon {
+    cursor: pointer;
+    height: 20px;
+    margin-left: 10px;
+  }
+  
+  .edit-icon:hover {
+    transform: scale(1.2);
+  }
+  .delete-icon {
+    cursor: pointer;
+    height: 20px;
+    margin-left: 10px;
+  }
+  
+  .delete-icon:hover {
+    transform: scale(1.2);
+  }
+
+  .editItemButton {
+    background-color: lightblue;
+    color: white;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #000;
+    margin: 10px;
+    padding: 5px 20px;
+  }
+  
+
+  #taskComplete {
+    height: 20px;
+    margin-right: 5px;
+  }
+  
